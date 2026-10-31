@@ -21,5 +21,3 @@ npm start
 ## Deploy
 
 Push to GitHub and import the repo in Vercel, or run `npm run build && npm start` on any Node 18+ host.
-# portfolio
-# portfolio
