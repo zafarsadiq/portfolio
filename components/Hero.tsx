@@ -33,7 +33,7 @@ export default function Hero() {
             <a href="#experience" className="rounded-full border-2 border-accent whitespace-nowrap px-[2.6vw] py-2.5 text-[length:clamp(.54rem,2.8vw,.72rem)] md:px-[22px] md:py-[11px] md:text-[.9rem] font-semibold text-accent">
               See my journey
             </a>
-            <a href="/Zafar-Sadiq-Resume.docx" download className="rounded-full border-2 border-accent whitespace-nowrap px-[2.6vw] py-2.5 text-[length:clamp(.54rem,2.8vw,.72rem)] md:px-[22px] md:py-[11px] md:text-[.9rem] font-semibold text-accent">
+            <a href="/Zafar-Sadiq-Resume.pdf" download className="rounded-full border-2 border-accent whitespace-nowrap px-[2.6vw] py-2.5 text-[length:clamp(.54rem,2.8vw,.72rem)] md:px-[22px] md:py-[11px] md:text-[.9rem] font-semibold text-accent">
               Download resume
             </a>
           </div>
