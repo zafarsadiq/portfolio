@@ -42,10 +42,6 @@ export default function Tools() {
           </div>
         ))}
       </div>
-      <p className="mt-[18px] max-w-[620px] text-muted">
-        JavaScript and React.js are LinkedIn Skill Assessment passes. Python is verified by TestDome. Generative AI is
-        backed by IBM’s “Develop Generative AI Applications” course.
-      </p>
     </section>
   );
 }
