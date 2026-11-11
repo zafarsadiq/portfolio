@@ -4,7 +4,7 @@ import { jobs } from "@/lib/content";
 export default function Experience() {
   return (
     <section id="experience" className="pb-16">
-      <SectionTitle sub="Fifteen years of delivering client projects, from requirements to deployment.">Experience</SectionTitle>
+      <SectionTitle sub="10+ years of delivering client projects, from requirements to deployment.">Experience</SectionTitle>
       <div className="ml-1.5 border-l-[3px] border-accent pl-[22px]">
         {jobs.map((j) => (
           <div

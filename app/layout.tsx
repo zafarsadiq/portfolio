@@ -4,7 +4,7 @@ import { profile } from "@/lib/content";
 
 const title = "Zafar Sadiq – Full-Stack Engineering Lead";
 const description =
-  "Portfolio of Zafar Sadiq, a full-stack engineering lead with 15+ years of experience delivering e-commerce, nonprofit and learning platforms for clients in the US and beyond.";
+  "Portfolio of Zafar Sadiq, a full-stack engineering lead with 10+ years of experience delivering e-commerce, nonprofit and learning platforms for clients in the US and beyond.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(profile.site),
