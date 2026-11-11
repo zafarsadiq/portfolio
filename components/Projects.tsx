@@ -1,11 +1,11 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { projects } from "@/lib/data";
+import { projects } from "@/lib/content";
 
 export default function Projects() {
   return (
     <section id="projects" className="pb-16">
-      <SectionTitle sub="Selected websites I led as team lead.">Projects</SectionTitle>
+      <SectionTitle sub="Selected work: what I built and what it achieved.">Projects</SectionTitle>
       <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-[18px]">
         {projects.map((p) => (
           <article
@@ -28,9 +28,26 @@ export default function Projects() {
               />
             </a>
             <div className="flex flex-1 flex-col gap-1.5 px-5 pb-5 pt-[18px]">
-              <span className="mb-1.5 inline-block w-fit rounded-md bg-accent px-[9px] py-0.5 text-[.72rem] font-semibold text-ink">Team Lead</span>
+              <span className="mb-1.5 inline-block w-fit rounded-md bg-accent px-[9px] py-0.5 text-[.72rem] font-semibold text-ink">{p.tag}</span>
               <h3 className="font-display text-[1.25rem] font-medium uppercase">{p.name}</h3>
-              <p className="flex-1 text-[.88rem] text-muted">{p.description}</p>
+              <p className="text-[.88rem] text-muted">{p.description}</p>
+              <p className="text-[.88rem] text-muted">
+                <strong className="font-semibold text-[#f2f2f2]">My role: </strong>
+                {p.role}
+              </p>
+              {p.stack && (
+                <ul className="mt-1 flex flex-wrap gap-1.5">
+                  {p.stack.map((s) => (
+                    <li key={s} className="rounded-md border border-line px-2 py-0.5 text-[.72rem] text-muted">
+                      {s}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <p className="flex-1 text-[.88rem] text-muted">
+                <strong className="font-semibold text-[#f2f2f2]">Result: </strong>
+                {p.impact}
+              </p>
               <a href={p.url} target="_blank" rel="noopener noreferrer" className="mt-2 whitespace-nowrap text-[.88rem] font-semibold text-accent hover:underline">
                 Visit {p.domain} ↗
               </a>

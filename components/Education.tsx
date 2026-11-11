@@ -1,5 +1,5 @@
 import SectionTitle from "./SectionTitle";
-import { education } from "@/lib/data";
+import { education } from "@/lib/content";
 
 export default function Education() {
   return (

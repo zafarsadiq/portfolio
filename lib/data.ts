@@ -15,39 +15,6 @@ export const tools = [
   { name: "n8n", path: "M21.4737 5.6842c-1.1772 0-2.1663.8051-2.4468 1.8947h-2.8955c-1.235 0-2.289.893-2.492 2.111l-.1038.623a1.263 1.263 0 0 1-1.246 1.0555H11.289c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947s-2.1663.8051-2.4467 1.8947H4.973c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947C1.1311 9.4737 0 10.6047 0 12s1.131 2.5263 2.5263 2.5263c1.1772 0 2.1663-.8051 2.4468-1.8947h1.4223c.2804 1.0896 1.2696 1.8947 2.4467 1.8947 1.1772 0 2.1663-.8051 2.4468-1.8947h1.0008a1.263 1.263 0 0 1 1.2459 1.0555l.1038.623c.203 1.218 1.257 2.111 2.492 2.111h.3692c.2804 1.0895 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263c-1.1772 0-2.1664.805-2.4468 1.8947h-.3692a1.263 1.263 0 0 1-1.246-1.0555l-.1037-.623A2.52 2.52 0 0 0 13.9607 12a2.52 2.52 0 0 0 .821-1.4794l.1038-.623a1.263 1.263 0 0 1 1.2459-1.0555h2.8955c.2805 1.0896 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263m0 1.2632a1.263 1.263 0 0 1 1.2631 1.2631 1.263 1.263 0 0 1-1.2631 1.2632 1.263 1.263 0 0 1-1.2632-1.2632 1.263 1.263 0 0 1 1.2632-1.2631M2.5263 10.7368A1.263 1.263 0 0 1 3.7895 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 1.2632 12a1.263 1.263 0 0 1 1.2631-1.2632m6.3158 0A1.263 1.263 0 0 1 10.1053 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 7.579 12a1.263 1.263 0 0 1 1.2632-1.2632m10.1053 3.7895a1.263 1.263 0 0 1 1.2631 1.2632 1.263 1.263 0 0 1-1.2631 1.2631 1.263 1.263 0 0 1-1.2632-1.2631 1.263 1.263 0 0 1 1.2632-1.2632" },
 ];
 
-export const profile = {
-  name: "Zafar Sadiq",
-  email: "2jafor@gmail.com",
-  phone: "+880 1684 961425",
-  phoneHref: "tel:+8801684961425",
-  linkedin: "https://www.linkedin.com/in/md-zafar-sadiq",
-};
-
-export const projects = [
-  { name: "Vinyl Status", domain: "vinylstatus.com", url: "https://vinylstatus.com/", image: "/projects/vinylstatus.jpg", description: "Online store for custom stickers, decals, magnets and T-shirts. Customers get a free online proof before printing and 2-business-day production after approval." },
-  { name: "Sage Titanium", domain: "sagetitanium.com", url: "https://sagetitanium.com/", image: "/projects/sagetitanium.jpg", description: "Storefront for a Portland, Oregon builder of custom titanium road, gravel and mountain bikes, with a dealer directory, finish options and an “Inside Sage” blog." },
-  { name: "Outdoor Dog Supply", domain: "outdoordogsupply.com", url: "https://www.outdoordogsupply.com/", image: "/projects/outdoordogsupply.jpg", description: "Family-owned online retailer of dog tracking and training gear, collars, name tags, fences and kennel supplies, shopped by brand or by pursuit, with free shipping." },
-  { name: "Zerran Beauty Market", domain: "zerranbeautymarket.com", url: "https://www.zerranbeautymarket.com/", image: "/projects/zerran.jpg", description: "Shop for vegan, cruelty-free, botanically based hair care made in California since 1986, with separate shopping paths for salon professionals and retail customers." },
-  { name: "Union Sportsmen’s Alliance", domain: "unionsportsmen.org", url: "https://unionsportsmen.org/", image: "/projects/unionsportsmen.jpg", description: "Website for a nonprofit uniting union members through hunting, fishing and conservation: memberships, donations, event registration, news, and a yearly fundraising calendar store." },
-  { name: "Arabic Lab", domain: "arabiclab.io", url: "https://www.arabiclab.io/", image: "/projects/arabiclab.jpg", description: "Multilingual site for a learning platform teaching Arabic and the Qur’an to non-Arab Muslim children, with an AI tutor, a parent dashboard and pricing for families and schools." },
-  { name: "Wafilife", domain: "wafilife.com", url: "https://www.wafilife.com/", image: "/projects/wafilife.jpg", description: "Bangladeshi online bookshop focused on Islamic books for children and adults, plus kids’ toys, with home delivery or pickup from the physical shop." },
-];
-
-export const jobs = [
-  { title: "Lead Web Developer", company: "79mplus · Full-time", meta: "Joined Feb 2017 · Former role" },
-  { title: "Web Developer", company: "Wafi Solutions · Full-time", meta: "Jun 2016 – Feb 2017 · Dhaka, Bangladesh" },
-  { title: "Web Developer", company: "Infoldersoft", meta: "Aug 2014 – Jul 2015" },
-  { title: "Web Developer", company: "The Jaxara IT Ltd · Full-time", meta: "Apr 2011 – Dec 2013" },
-  { title: "Web Developer", company: "eBizzSol · Full-time", meta: "Nov 2010 – Mar 2011 · Dhaka, Bangladesh" },
-];
-
-export const education = [
-  { tag: "2004", title: "East West University", text: "Bachelor’s degree, Computer Science" },
-  { tag: "1998", title: "Notre Dame College", text: "Higher Secondary Certificate (H.S.C)" },
-  { tag: "Jun 2026", title: "IBM", text: "Develop Generative AI Applications: Get Started", extra: "Credential ID E1MMXPCZUIZ8" },
-  { tag: "Jan 2024", title: "TestDome", text: "Python certificate", link: { label: "View credential", href: "https://www.testdome.com/certificates/4684d91409cf48e58204bc363e281c75" } },
-];
-
 export const nav = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },

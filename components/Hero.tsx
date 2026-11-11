@@ -19,12 +19,14 @@ export default function Hero() {
             Hi, I’m <span className="text-accent">Zafar Sadiq</span>
           </div>
           <h1 className="font-display text-[clamp(2.6rem,9vw,4.6rem)] font-bold uppercase leading-[1.1]">
-            Web<br />Developer
+            Full-Stack<br />Engineering Lead
           </h1>
           <p className="mx-auto mb-[22px] mt-[18px] max-w-[520px] text-muted md:mx-0">
-            Over 15 years building websites and web applications, from a first role in Dhaka in 2010 to leading a
-            development team. I build with WordPress, WooCommerce, React, Next.js, PHP and Python, and I’m now adding
-            generative AI to the toolkit.
+            I grew from a first developer role in Dhaka in 2010 to leading a development team, and have delivered
+            websites and web applications for many clients in the US and beyond: e-commerce stores, nonprofit
+            platforms with memberships and donations, and a multilingual learning platform with an AI tutor. I work
+            across WordPress, WooCommerce, React, Next.js, PHP and Python, and I’m now applying generative AI to the
+            way I build.
           </p>
           <div className="flex flex-nowrap justify-center gap-1.5 md:justify-start md:gap-3">
             <a href="#contact" className="rounded-full border-2 border-accent bg-accent whitespace-nowrap px-[2.6vw] py-2.5 text-[length:clamp(.54rem,2.8vw,.72rem)] md:px-[22px] md:py-[11px] md:text-[.9rem] font-semibold text-ink">
