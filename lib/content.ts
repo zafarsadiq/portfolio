@@ -32,15 +32,30 @@ export const jobs: Job[] = [
   },
   {
     title: "Web Developer",
-    company: "Earlier roles",
-    meta: "2010 – 2017",
+    company: "Wafi Solutions",
+    meta: "Jun 2016 – Feb 2017 · Dhaka, Bangladesh",
     bullets: [
-      "Wafi Solutions, Dhaka (Jun 2016 – Feb 2017): built custom features and improved site performance for Wafilife, a leading online bookshop in Bangladesh.",
-      "Infoldersoft (Aug 2014 – Jul 2015)",
-      "The Jaxara IT Ltd (Apr 2011 – Dec 2013)",
-      "eBizzSol, Dhaka (Nov 2010 – Mar 2011)",
-      "At each company, took part in every stage of client projects: analyzing requirements, planning, estimating, development and deployment.",
+      "Built custom features and improved site performance for Wafilife, a leading online bookshop in Bangladesh.",
+      "Took part in every stage of client projects: analyzing requirements, planning, estimating, development and deployment.",
     ],
+  },
+  {
+    title: "Web Developer",
+    company: "Infoldersoft",
+    meta: "Aug 2014 – Jul 2015",
+    bullets: ["Took part in every stage of client projects: analyzing requirements, planning, estimating, development and deployment."],
+  },
+  {
+    title: "Web Developer",
+    company: "The Jaxara IT Ltd",
+    meta: "Apr 2011 – Dec 2013",
+    bullets: ["Took part in every stage of client projects: analyzing requirements, planning, estimating, development and deployment."],
+  },
+  {
+    title: "Web Developer",
+    company: "eBizzSol",
+    meta: "Nov 2010 – Mar 2011 · Dhaka, Bangladesh",
+    bullets: ["Took part in every stage of client projects: analyzing requirements, planning, estimating, development and deployment."],
   },
 ];
 

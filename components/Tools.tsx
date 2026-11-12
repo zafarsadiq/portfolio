@@ -26,16 +26,16 @@ export default function Tools() {
         {groups.map((g) => (
           <div key={g.title}>
             <h3 className="mb-3 font-display text-[1.05rem] font-medium uppercase tracking-wide text-muted">{g.title}</h3>
-            <div className="grid grid-cols-3 gap-2.5 sm:grid-cols-[repeat(auto-fill,minmax(130px,1fr))] sm:gap-3.5">
+            <div className="grid grid-cols-3 gap-2 sm:grid-cols-[repeat(auto-fill,minmax(100px,1fr))] sm:gap-3">
               {g.names.map((n) => byName.get(n)).filter((t): t is Tool => Boolean(t)).map((t) => (
                 <div
                   key={t.name}
-                  className="rounded-2xl border border-line bg-card px-1 pb-3 pt-4 text-center transition hover:-translate-y-1 hover:border-accent sm:px-2.5 sm:pb-4 sm:pt-5"
+                  className="rounded-xl border border-line bg-card px-1 pb-2.5 pt-3 text-center transition hover:-translate-y-1 hover:border-accent sm:px-2 sm:pb-3 sm:pt-4"
                 >
-                  <svg viewBox="0 0 24 24" aria-hidden="true" className="mx-auto mb-3 h-[34px] w-[34px] fill-accent sm:h-[42px] sm:w-[42px]">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" className="mx-auto mb-2 h-[24px] w-[24px] fill-accent sm:h-[28px] sm:w-[28px]">
                     <path d={t.path} />
                   </svg>
-                  <span className="text-[.75rem] font-medium sm:text-[.85rem]">{t.name}</span>
+                  <span className="text-[.7rem] font-medium sm:text-[.8rem]">{t.name}</span>
                 </div>
               ))}
             </div>
