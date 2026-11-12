@@ -34,7 +34,7 @@ export default function Contact() {
         I’m open to on-site, hybrid and remote roles. Reach me by email, phone, LinkedIn or GitHub.
       </p>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2.5 min-[860px]:gap-2.5">
-        <Btn href="/Zafar-Sadiq-Resume.pdf" icon={icons.download} download>Download resume</Btn>
+        <Btn href="/Zafar-Sadiq-Resume.docx" icon={icons.download} download>Download resume</Btn>
         <Btn href={`mailto:${profile.email}`} icon={icons.mail}>{profile.email}</Btn>
         <Btn href={profile.phoneHref} icon={icons.phone}>{profile.phone}</Btn>
         <Btn href={profile.linkedin} icon={icons.linkedin} external>LinkedIn</Btn>
