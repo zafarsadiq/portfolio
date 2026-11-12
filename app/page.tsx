@@ -14,8 +14,8 @@ export default function Home() {
       <div className="mx-auto max-w-[1000px] px-5">
       <Hero />
       <About />
-      <Tools />
       <Experience />
+      <Tools />
       <Projects />
       <Education />
       <Contact />
