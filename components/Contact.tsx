@@ -14,12 +14,12 @@ function Btn({ href, icon, children, external, download }: { href: string; icon:
       href={href}
       {...(download ? { download: true } : {})}
       {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-      className="inline-flex items-center justify-center whitespace-nowrap rounded-full border-2 border-ink bg-ink p-3 text-[.9rem] font-semibold text-accent min-[860px]:gap-2.5 min-[860px]:px-[22px] min-[860px]:py-[11px]"
+      className="inline-flex flex-none items-center justify-center whitespace-nowrap rounded-full border-2 border-ink bg-ink p-3 text-[.78rem] font-semibold leading-none text-accent min-[860px]:gap-2 min-[860px]:px-4 min-[860px]:py-2.5"
     >
-      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-[18px] w-[18px] flex-none fill-current">
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-[17px] w-[17px] flex-none fill-current">
         <path d={icon} />
       </svg>
-      <span className="sr-only min-[860px]:not-sr-only">{children}</span>
+      <span className="sr-only whitespace-nowrap min-[860px]:not-sr-only">{children}</span>
     </a>
   );
 }
@@ -33,7 +33,7 @@ export default function Contact() {
       <p className="mx-auto mb-[22px] mt-3.5 max-w-[480px]">
         I’m open to on-site, hybrid and remote roles. Reach me by email, phone, LinkedIn or GitHub.
       </p>
-      <div className="flex flex-row flex-nowrap items-center justify-center gap-2.5 min-[860px]:gap-3">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-2.5 min-[860px]:gap-2.5">
         <Btn href="/Zafar-Sadiq-Resume.pdf" icon={icons.download} download>Download resume</Btn>
         <Btn href={`mailto:${profile.email}`} icon={icons.mail}>{profile.email}</Btn>
         <Btn href={profile.phoneHref} icon={icons.phone}>{profile.phone}</Btn>
