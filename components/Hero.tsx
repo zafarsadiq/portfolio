@@ -7,7 +7,7 @@ const stats = [
 export default function Hero() {
   return (
     <>
-      <header id="top" className="pb-14 pt-5 text-center md:pt-10">
+      <header id="top" className="pb-14 pt-5 md:pt-10">
         <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-line bg-card px-3.5 py-1.5 text-[.78rem] md:text-[.82rem]">
           <span className="h-[9px] w-[9px] flex-none rounded-full bg-[#3ddc84]" />
           Open to work · On-site, hybrid or remote
@@ -27,7 +27,7 @@ export default function Hero() {
           across WordPress, WooCommerce, React, Next.js, PHP and Python, and I’m now applying generative AI to the
           way I build.
         </p>
-        <div className="flex flex-nowrap justify-center gap-1.5 md:gap-3">
+        <div className="flex flex-nowrap gap-1.5 md:gap-3">
           <a href="#contact" className="rounded-full border-2 border-accent bg-accent whitespace-nowrap px-[2.6vw] py-2.5 text-[length:clamp(.54rem,2.8vw,.72rem)] md:px-[22px] md:py-[11px] md:text-[.9rem] font-semibold text-ink">
             Get in touch
           </a>
