@@ -1,0 +1,174 @@
+:root {
+  /* 1. Brand Accent: Your Signature Yellow (#FACC15) */
+  --chat--color--primary: #facc15;
+  --chat--color--primary-shade-50: #eab308;
+  --chat--color--primary--shade-100: #ca8a04;
+  --chat--color--secondary: #facc15;
+  --chat--color-secondary-shade-50: #eab308;
+
+  /* 2. Dark Charcoal Surfaces Matching Your Portfolio Cards */
+  --chat--color-white: #ffffff;
+  --chat--color-light: #141414;                /* Main chat background */
+  --chat--color-light-shade-50: #1f1f1f;       /* Bot message bubble & input bg */
+  --chat--color-light-shade-100: #2e2e2e;      /* Subtle card borders */
+  --chat--color-dark: #f4f4f5;                 /* Primary light text */
+
+  /* 3. Header & Message Colors */
+  --chat--header--background: #1f1f1f;
+  --chat--header--color: #ffffff;
+  --chat--header--border-bottom: 1px solid #2e2e2e;
+  --chat--message--bot--background: #1f1f1f;
+  --chat--message--bot--color: #e4e4e7;
+  --chat--message--user--background: #facc15;
+  --chat--message--user--color: #141414;
+
+  /* 4. Compact Sizing & Typography */
+  --chat--font-family: inherit;
+  --chat--window--width: 330px;
+  --chat--window--height: 440px;
+  --chat--border-radius: 12px;
+  --chat--toggle--size: 54px;
+  --chat--spacing: 0.75rem;
+  --chat--message--padding: 0.6rem 0.85rem;
+  --chat--message--font-size: 0.875rem;
+  --chat--header--padding: 0.75rem 1rem;
+  --chat--heading--font-size: 0.95rem;
+  --chat--subtitle--font-size: 0.75rem;
+}
+
+/* Main Window Border & Shadow */
+.chat-window {
+  border: 1px solid #2e2e2e !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Header Title & Subtitle Alignment */
+.chat-header {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  gap: 2px !important;
+}
+
+.chat-header h1 {
+  color: #facc15 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em;
+  margin: 0 !important;
+}
+
+.chat-header p {
+  color: #a1a1aa !important;
+  margin: 0 !important;
+}
+
+/* Show Your Profile Picture Inside the Chat Body Above the Welcome Messages */
+/* Anchor messages to the top so there is no empty black gap above your photo */
+.chat-body,
+.chat-messages-list {
+  justify-content: flex-start !important;
+  margin-top: 0 !important;
+  padding-top: 12px !important;
+}
+
+/* Larger Profile Picture (96px) Positioned Cleanly Near the Top */
+.chat-messages-list::before {
+  content: '';
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-image: url('/profile.jpg');       /* Keep your current image path */
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border: 2.5px solid #facc15;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  margin: 0 auto 14px auto;
+  flex-shrink: 0;
+}
+
+
+/* Clean Yellow Chat Bubble Launcher Button (No Photo) */
+.chat-window-toggle {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 50% !important;
+  background-color: #facc15 !important;
+  color: #141414 !important;
+  border: none !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: transform 0.15s ease, background-color 0.15s ease !important;
+}
+
+.chat-window-toggle:hover {
+  background-color: #eab308 !important;
+  transform: scale(1.05);
+}
+
+.chat-window-toggle svg {
+  opacity: 1 !important;
+  color: #141414 !important;
+  fill: #141414 !important;
+}
+
+/* Input Bar & Send Button Alignment + Colors */
+.chat-inputs {
+  background-color: #1f1f1f !important;
+  border-top: 1px solid #2e2e2e !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 8px 10px !important;
+}
+
+.chat-inputs textarea {
+  background-color: #141414 !important;
+  color: #ffffff !important;
+  border: 1px solid #2e2e2e !important;
+  border-radius: 8px !important;
+  font-size: 0.875rem !important;
+  padding: 8px 10px !important;
+  min-height: 38px !important;
+  max-height: 80px !important;
+  margin: 0 !important;
+}
+
+.chat-inputs textarea:focus {
+  border-color: #facc15 !important;
+  outline: none !important;
+}
+
+/* Fix Send Button Color & Centering */
+.chat-input-send-button,
+.chat-inputs button {
+  background-color: #facc15 !important;
+  color: #141414 !important;
+  border-radius: 8px !important;
+  width: 38px !important;
+  height: 38px !important;
+  min-width: 38px !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  cursor: pointer !important;
+  transition: background-color 0.15s ease !important;
+}
+
+.chat-input-send-button:hover,
+.chat-inputs button:hover {
+  background-color: #eab308 !important;
+}
+
+.chat-input-send-button svg,
+.chat-inputs button svg {
+  color: #141414 !important;
+  fill: #141414 !important;
+  width: 18px !important;
+  height: 18px !important;
+}

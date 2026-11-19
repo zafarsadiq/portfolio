@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
+import PortfolioChat from "@/components/PortfolioChat";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Contact />
       <footer className="py-7 pb-9 text-center text-[.8rem] text-muted">© 2026 Zafar Sadiq</footer>
       </div>
+      <PortfolioChat />
     </>
   );
 }
