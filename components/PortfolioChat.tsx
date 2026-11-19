@@ -8,7 +8,7 @@ import './PortfolioChat.css';
 export default function PortfolioChat() {
   useEffect(() => {
     createChat({
-      webhookUrl: 'https://n8n-portfolio-bot-meon.onrender.com/webhook/abe51811-db51-4ab9-91af-b6c5eb70f439/chat',
+      webhookUrl: 'https://onrender.com',
       initialMessages: [
         "Hi there! I'm Zafar's AI assistant.",
         "Ask me anything about Zafar's skills, projects & availability"
@@ -24,6 +24,18 @@ export default function PortfolioChat() {
         }
       }
     });
+
+    // Auto-open chat window 3 seconds after page load
+    const timer = setTimeout(() => {
+      const toggleBtn = document.querySelector<HTMLButtonElement>('.chat-window-toggle');
+      const wrapper = document.querySelector('.chat-window-wrapper');
+
+      if (toggleBtn && wrapper && !wrapper.classList.contains('chat-window-open')) {
+        toggleBtn.click();
+      }
+    }, 4000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   return null;
