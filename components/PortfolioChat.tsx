@@ -17,7 +17,10 @@ export default function PortfolioChat() {
         en: {
           title: "Chat with Zafar's AI Assistant",
           subtitle: "Ask about skills, projects & availability",
+          footer: "",
+          getStarted: "New Conversation",
           inputPlaceholder: "Ask a question about Zafar...",
+          closeButtonTooltip: "Close chat",
         }
       }
     });
@@ -25,4 +28,3 @@ export default function PortfolioChat() {
 
   return null;
 }
-
