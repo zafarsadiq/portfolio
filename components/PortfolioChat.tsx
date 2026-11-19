@@ -8,7 +8,7 @@ import './PortfolioChat.css';
 export default function PortfolioChat() {
   useEffect(() => {
     createChat({
-      webhookUrl: 'https://onrender.com',
+      webhookUrl: 'https://n8n-portfolio-bot-meon.onrender.com/webhook/abe51811-db51-4ab9-91af-b6c5eb70f439/chat',
       initialMessages: [
         "Hi there! I'm Zafar's AI assistant.",
         "Ask me anything about Zafar's skills, projects & availability"
