@@ -7,6 +7,7 @@ import Projects from "@/components/Projects";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import PortfolioChat from "@/components/PortfolioChat";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
       <footer className="py-7 pb-9 text-center text-[.8rem] text-muted">© 2026 Zafar Sadiq</footer>
       </div>
       <PortfolioChat />
+      <WhatsAppButton />
+
     </>
   );
 }
